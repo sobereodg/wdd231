@@ -1,3 +1,95 @@
-body {
-    font-family: "Roboto", sans-serif;
-}
+@media (min-width: 768px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+  
+    header span {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+  
+    nav ul {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    nav a {
+      border: none;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding: 1rem 2rem;
+    }
+  
+    nav a:last-child {
+      border-right: none;
+    }
+  
+    #hamburger {
+      display: none;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+  
+    section {
+      margin: 0;
+    }
+  
+    .course-card {
+      margin-bottom: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+  
+    header span {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+  
+    nav ul {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    nav a {
+      border: none;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding: 1rem 2rem;
+    }
+  
+    nav a:last-child {
+      border-right: none;
+    }
+  
+    #hamburger {
+      display: none;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+  
+    section {
+      margin: 0;
+    }
+  
+    .course-card {
+      margin-bottom: 0;
+    }
+  }
+    
