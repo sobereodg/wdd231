@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Timbuktu Traders",
+    "address": "123 Market St",
+    "phone": "555-1234",
+    "website": "https://timbuktutraders.com",
+    "image": "timbuktu-traders.png",
+    "membership": 3
+  },
+  {
+    "name": "Desert Logistics",
+    "address": "456 Transport Ave",
+    "phone": "555-5678",
+    "website": "https://desertlogistics.com",
+    "image": "desert-logistics.png",
+    "membership": 2
+  },
+  {
+    "name": "Sahara Solutions",
+    "address": "789 Tech Road",
+    "phone": "555-2468",
+    "website": "https://saharasolutions.com",
+    "image": "sahara-solutions.png",
+    "membership": 1
+  },
+  {
+    "name": "Oasis Eatery",
+    "address": "321 Food Lane",
+    "phone": "555-1122",
+    "website": "https://oasiseatery.com",
+    "image": "oasis-eatery.png",
+    "membership": 2
+  },
+  {
+    "name": "Nomad Gear",
+    "address": "987 Outdoor Blvd",
+    "phone": "555-3344",
+    "website": "https://nomadgear.com",
+    "image": "nomad-gear.png",
+    "membership": 3
+  },
+  {
+    "name": "Timbuktu Tours",
+    "address": "555 Safari St",
+    "phone": "555-6677",
+    "website": "https://timbuktutours.com",
+    "image": "timbuktu-tours.png",
+    "membership": 1
+  },
+  {
+    "name": "Desert Bank",
+    "address": "808 Finance Ave",
+    "phone": "555-9900",
+    "website": "https://desertbank.com",
+    "image": "desert-bank.png",
+    "membership": 2
+  }
+]
