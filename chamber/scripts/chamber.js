@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const directory = document.getElementById("directory");
-  const gridButton = document.getElementById("gridview");
-  const listButton = document.getElementById("listview");
+  const gridButton = document.getElementById("gridView");
+  const listButton = document.getElementById("listView");
 
   async function getMembers() {
     try {
