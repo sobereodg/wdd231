@@ -1,3 +1,11 @@
+const hamburgerElement = document.querySelector('#menu-toggle');
+const navElement = document.querySelector('.menulinks');
+
+hamburgerElement.addEventListener('click', () => {
+  navElement.classList.toggle('open');
+  hamburgerElement.classList.toggle('open');
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const directory = document.getElementById("directory");
   const gridButton = document.getElementById("gridView");
