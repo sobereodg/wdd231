@@ -1,0 +1,18 @@
+.card {
+    border: 1px solid #5d6f67;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card #current-temp {
+    font-size: 2rem;
+    color: #537279;
+    margin: .3rem 0;
+}
+
+figcaption {
+    text-transform: capitalize;
+    color: #3a5250;
+    margin: .3re 0;
+}
