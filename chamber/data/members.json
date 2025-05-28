@@ -21,7 +21,7 @@
     "phone": "(844) 814-4627",
     "website": "https://www.twilio.com",
     "image": "twilio.png",
-    "membership": 1
+    "membership": "Gold"
   },
   {
     "name": "Genesys",
@@ -29,7 +29,7 @@
     "phone": "888-436-3797",
     "website": "https://www.genesys.com",
     "image": "genesys.png",
-    "membership": 2
+    "membership": "Silver"
   },
   {
     "name": "Nutanix",
@@ -37,7 +37,7 @@
     "phone": "(408) 216-8360",
     "website": "https://www.nutanix.com",
     "image": "nutanix.png",
-    "membership": 1
+    "membership": "Gold"
   },
   {
     "name": "GitHub",
@@ -45,7 +45,7 @@
     "phone": "(888) 250-6439",
     "website": "https://www.github.com",
     "image": "GitHub.png",
-    "membership": 3
+    "membership": "Gold"
   },
   {
     "name": "Jamf",
@@ -53,6 +53,6 @@
     "phone": "+1 612-605-6625",
     "website": "https://www.jamf.com",
     "image": "jamf.png",
-    "membership": 2
+    "membership": "Silver"
   }
 ]
