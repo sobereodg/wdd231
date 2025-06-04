@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Timbuktu Chamber of Commerce - Join Page">
+        <meta name="author" content="Goodluck Ogi Sobere">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <title>Join | Timbuktu Chamber of Commerce</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/chamber.css">
+        <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+        <meta property="og:title" content="Timbuktu Chamber of Commerce Join">
+        <meta property="og:description" content="Timbuktu Chamber of Commerce join request Confirmation page.">
+        <meta property="og:image" content="https://sobereodg.github.io/wdd231/images/profile.jpg">
+        <meta property="og:url" content="https://sobereodg.github.io/wdd231/chamber/join.html">
+        <script src="scripts/chamber.js" defer></script>
+        <script src="scripts/join.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Timbuktu Chamber of Commerce logo" width="34" height="40" loading="lazy">
+            <h1>Timbuktu Chamber of Commerce</h1>  
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu"></button>  
+            <nav>
+                <ul class="menulinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" class="active">Join</a></li>
+                    <li><a href="#">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="join-main">
+            <dialog id="membership-level-details"></dialog>  
+            <form method="GET" action="thankyou.html" autocomplete="on" >
+                <input name="timestamp" type="hidden" id="timestamp">
+
+                <h1>Membership Application Form</h1>  
+
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name<span class="required-asterisk">*</span> <input type="text" title="Applicant's first name." name="fname" autocomplete="given-name"
+                        required tabindex="0"></label>
+                    <label>Last Name<span class="required-asterisk">*</span> <input type="text" title="Applicant's last name." name="lname" autocomplete="family-name"
+                        required tabindex="0"></label>
+                    <label>Organizational Title <input type="text" title="Title of the applicant in his or her company." name="organization-title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" tabindex="0"></label>
+                    <label>Email<span class="required-asterisk">*</span> <input type="email" title="Applicant's email address." name="email" autocomplete="email"
+                        placeholder="someone@gmail.com" required></label>
+
+                    <label>Mobile Phone <span class="required-asterisk">*</span> <input type="tel" title="Applicant's mobile phone number." name="phone" autocomplete="tel" placeholder="1235551234" required tabindex="0"></label>
+            
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label>Organization Name<span class="required-asterisk">*</span> <input type="text" title="The name of the organization or company." name="organization" autocomplete="organization"
+                        required tabindex="0"></label>
+                    <label>Membership Level 
+                        <select name="membership-level" id="membership-level" title="Requested membership level." tabindex="0" >
+                            <option value="np">NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label>Business Description<textarea name="business-description" title="Description of the organization." id="business-description"
+                        rows="10" tabindex="0"></textarea></label>
+                    </fieldset>
+
+                    <input type="submit" value="Join Now" tabindex="0">
+
+            </form>
+            <div id="membership-level-information">
+                <p id="membership-level-label">Membership Levels</p>
+                <section class="animated-card-fade">
+                    <h2 tabindex="0">Non Profit Membership Level</h2>
+                    <div class="membership-button-container">
+                        <button id="np-membership-button" tabindex="0">Learn More</button>
+                    </div>
+                </section>
+                <section class="animated-card-fade">
+                    <h2 tabindex="0">Bronze Membership Level</h2>
+                    <div class="membership-button-container">
+                        <button id="bronze-membership-button" tabindex="0">Learn More</button>
+                        <div id="bronze-membership-button-wrapper"></div>
+                    </div>
+                </section>
+                <section class="animated-card-fade">
+                    <h2 tabindex="0">Silver Membership Level</h2>
+                    <div class="membership-button-container">
+                        <button id="silver-membership-button" tabindex="0">Learn More</button>
+                        <div id="silver-membership-button-wrapper"></div>
+                    </div>
+                </section>
+                <section class="animated-card-fade">
+                    <h2 tabindex="0">Gold Membership Level</h2>
+                    <div class="membership-button-container">
+                        <button id="gold-membership-button" tabindex="0">Learn More</button>
+                        <div id="gold-membership-button-wrapper"></div>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+        <footer>
+            <div class="contact-info">
+                <p><strong>Timbuktu Chamber of Commerce</strong></p>
+                <p>Plot 7 Samuel Street, Arise and Shine, Eleme, Rivers Nigeria.<br></p>
+                <p>Phone: (+234) 91 6013 3967</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/goodluck.sobere" target="_blank"
+                    ><img src="images/logo-facebook.svg" alt="Facebook"
+                ></a>
+                <a href="https://x.com/wildpips0" target="_blank"
+                    ><img src="images/logo-twitter.svg" alt="Twitter"
+                ></a>
+                <a href="https://www.linkedin.com/in/goodluck-sobere/" target="_blank"
+                    ><img src="images/logo-linkedin.svg" alt="LinkedIn"
+                ></a>
+            </div>
+            <div class="footer-note">
+                <p>WDD231 Class Project<br>Goodluck Ogi Sobere</p>
+                <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+    </body>
+</html>

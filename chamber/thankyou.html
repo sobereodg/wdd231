@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timbuktu Chamber of Commerce - Join Page">
+    <meta name="author" content="Goodluck Ogi Sobere">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Join | Timbuktu Chamber of Commerce Request Confirmation Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+    <meta property="og:title" content="Timbuktu Chamber of Commerce Join">
+    <meta property="og:description" content="Join the Timbuktu Chamber of Commerce by filling out the membership application form. Choose a membership level, provide your contact and organization details, and become part of our growing business network.">
+    <meta property="og:image" content="https://sobereodg.github.io/wdd231/images/profile.jpg">
+    <meta property="og:url" content="https://sobereodg.github.io/wdd231/chamber/join.html">
+    <script src="scripts/chamber.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Timbuktu Chamber of Commerce logo" width="34" height="40" loading="lazy">
+            <h1>Timbuktu Chamber of Commerce</h1>  
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu"></button>  
+            <nav>
+                <ul class="menulinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" class="active">Join</a></li>
+                    <li><a href="#">Discover</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h1>Thank You for Joining!</h1>
+        <p><strong>First Name:</strong> <span id="firstName"></span></p>
+        <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>Organization:</strong> <span id="organization"></span></p>
+        <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
+    </main>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("firstName").textContent = params.get("firstName");
+        document.getElementById("lastName").textContent = params.get("lastName");
+        document.getElementById("email").textContent = params.get("email");
+        document.getElementById("phone").textContent = params.get("phone");
+        document.getElementById("organization").textContent = params.get("organization");
+        document.getElementById("timestamp").textContent = params.get("timestamp");
+    </script>
+
+    <footer>
+        <div class="contact-info">
+            <p><strong>Timbuktu Chamber of Commerce</strong></p>
+            <p>Plot 7 Samuel Street, Arise and Shine, Eleme, Rivers Nigeria.<br></p>
+            <p>Phone: (+234) 91 6013 3967</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/goodluck.sobere" target="_blank"
+                ><img src="images/logo-facebook.svg" alt="Facebook"
+            ></a>
+            <a href="https://x.com/wildpips0" target="_blank"
+                ><img src="images/logo-twitter.svg" alt="Twitter"
+            ></a>
+            <a href="https://www.linkedin.com/in/goodluck-sobere/" target="_blank"
+                ><img src="images/logo-linkedin.svg" alt="LinkedIn"
+            ></a>
+        </div>
+        <div class="footer-note">
+            <p>WDD231 Class Project<br>Goodluck Ogi Sobere</p>
+            <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

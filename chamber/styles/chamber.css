@@ -320,6 +320,240 @@ footer .social-icons img {
     margin-right: 0.5rem;
 }   
 
+#join-main h1, 
+#membership-level-label {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#membership-level-label {
+    font-size: 1.5em;
+}
+
+#join-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+form {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px auto;
+    width: 100%;
+    border-bottom: 1px solid #0D2149;
+    max-height: 1400px;
+}
+
+fieldset {
+    margin: 0 0 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+legend {
+    color: black;
+    padding: 0 .5rem;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    min-height: 44px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+input[type="email"] {
+    display: block;
+    width: 100%;
+    border: thin solid #00000064;
+    border-radius: 6px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    margin: 8px auto;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+select,
+input[type="number"] {
+    display: block;
+    width: 100%;
+    border: thin solid #00000064;
+    border-radius: 6px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    margin: 8px auto;
+    appearance: none;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: thin solid #00000064;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
+    margin: 8px auto;
+    appearance: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    display: block;
+    border: none;
+    background-image: linear-gradient(#004466) ;
+    color: #fff;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 426px;
+    margin: 1.5rem auto;
+    box-shadow: 1px 1px 4px #00000064;
+} 
+
+.required-asterisk {
+    color: #CC3333;
+}
+
+#membership-level-information section {
+    margin: 15px auto;
+}
+
+.membership-button-container {
+    width: 100%;
+    height: calc(100% - 47px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-button-container button {
+    border-radius: 6px;
+    padding: .75rem;
+    background-image: linear-gradient(#004466) ;
+    color: #fff;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: 1;
+    width: 120px;
+    height: 50px;
+}
+
+#bronze-membership-button-wrapper {
+    border-radius: 6px;
+    backface-visibility: hidden;
+    position: absolute;
+    width: 130px;
+    height: 60px;
+}
+
+#silver-membership-button-wrapper  {
+    border-radius: 6px;
+    backface-visibility: hidden;
+    position: absolute;
+    width: 130px;
+    height: 60px;
+}
+
+#gold-membership-button-wrapper  {
+    border-radius: 6px;
+    backface-visibility: hidden;
+    position: absolute;
+    width: 130px;
+    height: 60px;
+}
+
+
+dialog {
+    width: calc(100% - 20px);
+    margin: 100px auto;
+    padding: 0;
+    color: #0B3954;
+    font-family: var(--font-family), serif;
+    border: 1px solid #0d4924;
+    box-shadow: 1px 1px 4px #000;
+    max-width: 780px;
+    border-radius: 6px;
+}
+
+dialog h2 {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    background-color: #0B3954;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+dialog h3, dialog p {
+    padding: 10px;
+}
+
+.dialog-paragraphs {
+    font-size: 0.65rem;
+    text-align: left;
+}
+
+dialog::backdrop {
+    background-color: #00000097;
+}
+
+dialog button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+.animated-card-fade {
+    animation: fade-in 1.5s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#join-request-confirmation-main {
+    width: 320px;
+    padding: 10px;
+}
+
+#join-request-confirmation-container {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 614px;
+    background-color: white;
+    color: black;
+}
+
+#join-request-confirmation-container p {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    text-align: left;
+}
+
 
 /* ----- Responsive Nav (Mobile) ----- */
 @media screen and (min-width: 600px) {
@@ -357,5 +591,49 @@ footer .social-icons img {
 
     .member-card {
         text-align: center;
+    }
+
+
+    #join-main {
+        grid-template-columns: 1fr 1fr;
+        height: 1470px;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+    }
+
+    input[type="email"] {
+        display: inline-block;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="url"],
+    input[type="date"],
+    select,
+    input[type="number"] {
+        display: inline-block;
+    }
+
+     #join-request-confirmation-main {
+        width: 800px;
+        padding: 10px;
+    }
+
+    #join-request-confirmation-container {
+        margin: 10px;
+        padding: 20px;
+        width: 780px;
+        height: 406px;
+        background-color: white;
+        color: black;
+    }
+
+    #join-main {
+        max-width: 1240px;
+        height: 1450px;
     }
 }
