@@ -1,0 +1,43 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #EDF2F4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d90429;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+footer {
+    background-color: #d90429;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
