@@ -415,7 +415,7 @@ input[type="button"],
 input[type="submit"] {
     display: block;
     border: none;
-    background-image: linear-gradient(#004466) ;
+    background-image: linear-gradient(#004466 )  ;
     color: #fff;
     border-radius: 6px;
     padding: .75rem;
