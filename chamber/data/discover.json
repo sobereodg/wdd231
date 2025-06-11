@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Isaac Boro Park",
+        "address": "Mile 1, Orogbum, Port Harcourt.",
+        "description": "A public park and outdoor recreation area located in Port Harcourt, Rivers State, Nigeria.",
+        "image": "images/boro.webp"
+    },
+
+    {
+        "name": "Rivers State Cultural Center",
+        "address": "Bonny St, Port Harcourt, Rivers.",
+        "description": "A multifaceted facility dedicated to promoting and preserving the state's rich cultural heritage.",
+        "image": "images/cultural.webp"
+    },
+
+    {
+        "name": "Tourist Beach",
+        "address": "Port Harcourt, Rivers State, Nigeria.",
+        "description": "A white sand urban beach, a popular destination for locals and tourists seeking relaxation and fun.",
+        "image": "images/tourist-beach.webp"
+    },
+
+    {
+        "name": "Port-Harcourt Pleasure Park",
+        "address": "Aba Rd, Rivers State, Nigeria.",
+        "description": "A popular public recreation park located in Port Harcourt, Rivers State, Nigeria.",
+        "image": "images/Pleasure-park.webp"
+    },
+
+    {
+        "name": "Garden City Amusement Park",
+        "address": "9 Birabi Street, Port Harcourt, Rivers State Ng.",
+        "description": "A park that features various attractions, such as rides and games, as well as other events for entertainment purposes.",
+        "image": "images/amusement.webp"
+    },
+
+    {
+        "name": "Genesis Deluxe Cinema",
+        "address": "39 Tombia Street, Port Harcourt.",
+        "description": "Offers a high-end cinematic experience. It boasts the biggest screen in the city. Beyond standard movies, they offer 3D films and special features like student discounts and tailored promotions.",
+        "image": "images/cinema.webp"
+    },
+
+    {
+        "name": "Creed Upscale Bistro & Bar",
+        "address": "31 Apara Rd, Elechi, Port Harcourt, Nigeria. ",
+        "description": "It is a trendy and sophisticated establishment, tailored to meet your unwinding and relaxation needs.",
+        "image": "images/creed.webp"
+    },
+    
+    {
+        "name": "Port Harcourt Zoo",
+        "address": "Peter Odili Rd, Trans Amadi, Port Harcourt, Rivers",
+        "description": "Port Harcourt Zoo (also known as PH Zoo) is a state owned zoological park in Port Harcourt city of Rivers State in Nigeria.",
+        "image": "images/zoo.webp"
+    }
+]
