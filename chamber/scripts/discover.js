@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <h2>${item.name}</h2>
           <address>${item.address}</address>
           <p>${item.description}</p>
+          <button>Learn more</button>
         `;
 
         container.appendChild(card);

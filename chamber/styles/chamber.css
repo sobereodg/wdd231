@@ -77,6 +77,13 @@ ul.menulinks a:hover {
     background-color: rgba(255,255,255,0.2);
 }
 
+li a.active {
+  background-color: var(--secondary-color);
+  color: white !important;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
 #menu-toggle.open::before {
     content: "x";
 }
@@ -574,6 +581,25 @@ dialog button {
     "card8";
   gap: 1rem;
 }
+
+.grid-container button {
+  background-color: #0B3954;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.grid-container button:hover {
+  background-color: #0B3954;
+  transform: scale(1.05);
+}
+
+
 h1 { grid-area: title; }
 .visitor-info { grid-area: visit; }
 .card1 { grid-area: card1; }
