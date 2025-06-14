@@ -8,11 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
         card.classList.add(`card${index + 1}`);
 
         card.innerHTML = `
-          <h2>${item.name}</h2>
           <figure><img src="${item.image}" alt="${item.name}" loading="lazy"></figure>
+          <h2>${item.name}</h2>
           <address>${item.address}</address>
           <p>${item.description}</p>
-          <button>Learn more</button>
         `;
 
         container.appendChild(card);
