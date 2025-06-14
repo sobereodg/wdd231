@@ -22,20 +22,25 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 44px auto 44px;
-    align-items: end;
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+header img {
+  height: 40px;
+  width: auto;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 1.0rem;
-    font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  flex-grow: 1;
 }
-
 
 #menu-toggle::before {
     content: "☰";
@@ -554,6 +559,66 @@ dialog button {
     text-align: left;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "visit"
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
+}
+h1 { grid-area: title; }
+.visitor-info { grid-area: visit; }
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
+@media screen and (min-width: 641px) {
+  .grid-container {
+    grid-template-areas:
+      "title title"
+      "visit visit"
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .grid-container {
+    grid-template-areas:
+      "title title title"
+      "visit card1 card2"
+      "card3 card4 card5"
+      "card6 card7 card8";
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header h1 {
+    margin: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+  }
+}
 
 /* ----- Responsive Nav (Mobile) ----- */
 @media screen and (min-width: 600px) {
@@ -636,4 +701,12 @@ dialog button {
         max-width: 1240px;
         height: 1450px;
     }
+}
+
+@media (hover: hover) {
+  .grid-container img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
 }

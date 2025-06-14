@@ -1,25 +1,25 @@
-// discover.js
+document.addEventListener("DOMContentLoaded", () => {
+  fetch('data/discover.json')
+    .then(res => res.json())
+    .then(data => {
+      const container = document.querySelector('.grid-container');
+      data.forEach((item, index) => {
+        const card = document.createElement('section');
+        card.classList.add(`card${index + 1}`);
 
-// Fetch and display cards from discover.json
-fetch('data/discover.json')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.querySelector('.grid-container');
-    data.forEach((item, index) => {
-      const card = document.createElement('section');
-      card.classList.add(`card${index + 1}`);
+        card.innerHTML = `
+          <h2>${item.name}</h2>
+          <figure><img src="${item.image}" alt="${item.name}" loading="lazy"></figure>
+          <address>${item.address}</address>
+          <p>${item.description}</p>
+          <button>Learn more</button>
+        `;
 
-      card.innerHTML = `
-        <h2>${item.name}</h2>
-        <figure><img src="${item.image}" alt="${item.name}"></figure>
-        <address>${item.address}</address>
-        <p>${item.description}</p>
-        <button>Learn more</button>
-      `;
-
-      container.appendChild(card);
+        container.appendChild(card);
+      });
     });
-  });
+});
+
 
 // Visit message logic
 const visitMessage = document.getElementById("visit-message");
