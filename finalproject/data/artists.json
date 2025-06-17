@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Burna Boy",
+    "image": "images/burna.jpeg",
+    "genre": "Afrofusion",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Tems",
+    "image": "images/tems.jpeg",
+    "genre": "R&B / Afrobeats",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Ayra Starr",
+    "image": "images/ayra.jpeg",
+    "genre": "Afropop",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Rema",
+    "image": "images/rema.jpeg",
+    "genre": "Trap / Afrobeats",
+    "country": "Nigeria"
+  }
+]

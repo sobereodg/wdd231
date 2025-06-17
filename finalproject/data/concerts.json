@@ -1,0 +1,92 @@
+[
+  {
+    "artist": "Burna Boy",
+    "poster": "images/concert-burna.jpeg",
+    "date": "2025-08-12",
+    "venue": "Eko Energy Arena",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "details": "Experience Burna Boy live with his full band and special guests."
+  },
+  {
+    "artist": "Tiwa Savage",
+    "poster": "images/concert-tiwa.jpeg",
+    "date": "2025-09-05",
+    "venue": "O2 Arena",
+    "city": "London",
+    "country": "UK",
+    "details": "Afrobeats queen Tiwa Savage returns to London for a sold-out show."
+  },
+  {
+    "artist": "Rema",
+    "poster": "images/concert-rema.jpeg",
+    "date": "2025-07-20",
+    "venue": "Accor Arena",
+    "city": "Paris",
+    "country": "France",
+    "details": "Don’t miss Rema’s electrifying performance with surprise guests."
+  },
+  {
+    "artist": "Tems",
+    "poster": "images/concert-tems.jpeg",
+    "date": "2025-10-11",
+    "venue": "Madison Square Garden",
+    "city": "New York",
+    "country": "USA",
+    "details": "Tems Live in NYC — a night of soulful Afrobeats fusion."
+  },
+  {
+    "artist": "Wizkid",
+    "poster": "images/concert-wizkid.jpeg",
+    "date": "2025-11-18",
+    "venue": "Civic Centre",
+    "city": "Abuja",
+    "country": "Nigeria",
+    "details": "Wizkid returns home to headline an exclusive Abuja performance."
+  },
+  {
+    "artist": "Asake",
+    "poster": "images/concert-asake.jpeg",
+    "date": "2025-08-28",
+    "venue": "Coca-Cola Arena",
+    "city": "Dubai",
+    "country": "UAE",
+    "details": "Join Asake for an energetic Dubai concert experience!"
+  },
+  {
+    "artist": "Ayra Starr",
+    "poster": "images/concert-ayra.jpeg",
+    "date": "2025-09-22",
+    "venue": "La Madeleine",
+    "city": "Brussels",
+    "country": "Belgium",
+    "details": "Rising star Ayra Starr lights up Brussels with her latest hits."
+  },
+  {
+    "artist": "Fireboy DML",
+    "poster": "images/concert-fireboy.jpeg",
+    "date": "2025-12-03",
+    "venue": "Cape Town Stadium",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "details": "Fireboy brings the heat to Cape Town this December!"
+  },
+  {
+    "artist": "Joeboy",
+    "poster": "images/concert-joeboy.jpeg",
+    "date": "2025-10-30",
+    "venue": "Echo Arena",
+    "city": "Liverpool",
+    "country": "UK",
+    "details": "Joeboy hits the UK with his smooth vocals and sweet melodies."
+  },
+  {
+    "artist": "Omah Lay",
+    "poster": "images/concert-omah.jpeg",
+    "date": "2025-09-15",
+    "venue": "Unity Park",
+    "city": "Port Harcourt",
+    "country": "Nigeria",
+    "details": "Omah Lay performs live in his hometown with a heartfelt set."
+  }
+]
