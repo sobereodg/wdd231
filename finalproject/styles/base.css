@@ -37,6 +37,17 @@ main {
   color: white;
   display: block;
   cursor: pointer;
+  text-align: right;
+  padding: .25rem 2vw;
+  width: 100%;
+}
+
+#menu-toggle::before {
+    content: "☰";
+}
+
+#menu-toggle.open::before {
+    content: "x";
 }
 
 .logo {
@@ -48,6 +59,7 @@ nav ul {
   padding: 0;
   display: none;
 }
+
 
 nav ul.open {
   display: block;

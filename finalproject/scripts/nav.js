@@ -1,7 +1,10 @@
+// nav.js
 document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("menu-toggle");
-  const nav = document.querySelector("nav ul");
-  btn?.addEventListener("click", () => {
-    nav.classList.toggle("open");
+  const menuBtn = document.querySelector("#menu-toggle");
+  const navLinks = document.querySelector("nav .nav-links");
+
+  menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+    menuBtn.classList.toggle("open");
   });
 });

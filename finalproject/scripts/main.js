@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   menuToggle.addEventListener("click", () => {
     nav.classList.toggle("open");
+    menuToggle.classList.toggle('open')
   });
 
 const user = localStorage.getItem("username");
